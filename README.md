@@ -6,9 +6,21 @@
 - RSpec
 - GitFlow Workflow
 
+## Project requirements
+- Only works with letters between a/A and z/Z. (Discard everything else)
+-	Accepts some text to encrypt and a number which defines the "shift factor"
+- "Shifts" the letters by X positions using the order of the alphabet (ABCDF)
+- Restrictions:
+  - Return from z to a
+	- Return the same case of the letter
+
+## UML Classes
+
+![UML_Class](./UML_Class_Caesar_Cipher.png)
+
 ## 🔴 Live Demo
 
-## 🛠  Getting Startd
+## 🛠 Getting Started 
 ### Prerequisites
 ### Setup
 ### Install
@@ -16,7 +28,7 @@
 ### Run tests
 ### Deployment
 
-## Authors
+## ✒️ Author
 👤 **Marcos Hernández Campos**
 - Github: [@marcoshdezcam](https://github.com/marcoshdezcam)
 - Twitter: [@MarcosHCampos](https://twitter.com/MarcosHCampos)
