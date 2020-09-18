@@ -7,7 +7,7 @@
 - GitFlow Workflow
 
 ## Project requirements
-- Only works with letters between a/A and z/Z. (Discard everything else)
+- Only works with letters between a/A and z/Z. And the symbols: '?' and '!' (Discard everything else)
 -	Accepts some text to encrypt and a number which defines the "shift factor"
 - "Shifts" the letters by X positions using the order of the alphabet (ABCDF)
 - Restrictions:
