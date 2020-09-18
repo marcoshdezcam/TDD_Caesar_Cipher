@@ -28,5 +28,10 @@ RSpec.describe CaesarCipher do
       test = CaesarCipher.new('Sd gybuc!', 10)
       test.decrypt.to eq('It works!')
     end
+    it %(Decrypts a message and discards incompatble symbols) do
+      test = CaesarCipher.new('Sd gybuc!$', 10) do
+        test.decrypt.to eq('It works!')
+      end
+    end
   end
 end
