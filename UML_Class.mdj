@@ -239,13 +239,30 @@
 											"height": 13,
 											"text": "+remove_symbols(text: string): string",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF0ncs9PNXImUs=",
+											"_parent": {
+												"$ref": "AAAAAAF0kwCpgiw4vtM="
+											},
+											"model": {
+												"$ref": "AAAAAAF0ncs8/NXFfDk="
+											},
+											"font": "Source Sans Pro;13;0",
+											"left": 53,
+											"top": 160,
+											"width": 202.55311584472656,
+											"height": 13,
+											"text": "+set_rotation(rotations: int)",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Source Sans Pro;13;0",
 									"left": 48,
 									"top": 95,
 									"width": 212.55311584472656,
-									"height": 68
+									"height": 83
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -425,6 +442,25 @@
 									},
 									"type": "string",
 									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF0ncs8/NXFfDk=",
+							"_parent": {
+								"$ref": "AAAAAAF0kwCpgSwv3cM="
+							},
+							"name": "set_rotation",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF0nct6atXMSJI=",
+									"_parent": {
+										"$ref": "AAAAAAF0ncs8/NXFfDk="
+									},
+									"name": "rotations",
+									"type": "int"
 								}
 							]
 						}
